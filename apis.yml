@@ -1,8 +1,24 @@
 aid: aivar
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aivar.png
 name: Aivar
-description: 'Aivar is a company surfaced as a portfolio company of bessemer-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: ai-ml. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Aivar Innovations is an enterprise AI consulting and development firm that helps regulated
+  and large organizations move agentic AI systems from pilot to scaled production. Alongside strategic
+  AI consulting, custom AI development, managed AI/ML operations, data services, and cloud transformation,
+  Aivar ships three accelerators: Convogent AI (autonomous voice and conversational agents in 16+ languages
+  with sub-500ms latency), Velogent AI (governed agentic process automation for regulated industries),
+  and Kubogent AI (enterprise AI infrastructure on Kubernetes). The company operates a professional-services
+  model and does not currently publish a public, self-service API, SDKs, or developer documentation.'
 url: https://raw.githubusercontent.com/api-evangelist/aivar/refs/heads/main/apis.yml
 x-type: company
 x-source: bessemer-venture-partners-portfolio
@@ -14,6 +30,12 @@ modified: '2026-07-17'
 tags:
 - Company
 - Ai Ml
+- Artificial Intelligence
+- AI Agents
+- Consulting
+- Voice AI
+- Process Automation
+- Kubernetes
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +43,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/aivar-domain-security.yml
 - type: Website
   url: https://aivar.tech/
+- type: TermsOfService
+  url: https://aivar.tech/terms-of-service
+- type: PrivacyPolicy
+  url: https://aivar.tech/privacy-policy
+- type: Support
+  url: https://aivar.tech/faqs
+- type: LinkedIn
+  url: https://www.linkedin.com/company/aivar-innovations/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
